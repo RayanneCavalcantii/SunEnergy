@@ -1,149 +1,293 @@
-                                @media (max-width: 541px) {
-                                    p {
-                                        font-size: 22px;
-                                        padding-bottom: 10px;
-                                        padding-top: 50px;
-                                    }
-                                    a.nav-link {
-                                        font-size: 20px;
-                                    }
-                                    h1 {
-                                        width: max-content;
-                                        font-size: 22px;
-                                    }
-                                    #psecao2 {
-                                        font-size: 15px;
-                                        font-weight: lighter;
-                                    }
-                                    #imgsecao2 {
-                                        float: right;
-                                        padding-top: 5%;
-                                        width: 250px;
-                                        height: 150px;
-                                        margin-top: 60px;
-                                        padding-left: 85px;
-                                    }
-                                    .section2 {
-                                        height: 290px;
-                                    }
-                                    .control {
-                                        margin-bottom: 350px;
-                                    }
-                                    .carousel-caption {
-                                        padding-bottom: 342px;
-                                    }
-                                    .carousel-indicators {
-                                        margin-bottom: 21.4rem;
-                                    }
-                                    .nome {
-                                        font-size: 20px;
-                                    }
-                                    .infonossotime {
-                                        font-size: 13px;
-                                    }
-                                    .carouselinfo {
-                                        height: 65px;
-                                    }
-                                }
-                                
-                                @media (max-width: 376px) {
-                                    .carousel-caption {
-                                        padding-bottom: 442px;
-                                    }
-                                    .carousel-indicators {
-                                        margin-bottom: 28.3rem;
-                                    }
-                                }
-                                
-                                @media (max-width: 376px) and (max-height:668px) {
-                                    .carousel-caption {
-                                        padding-bottom: 335px;
-                                    }
-                                    .carousel-indicators {
-                                        margin-bottom: 21.8rem;
-                                    }
-                                }
-                                
-                                @media (max-width: 320px) {
-                                    .carousel-indicators {
-                                        margin-bottom: 17.1rem;
-                                    }
-                                    .nome {
-                                        font-size: 20px;
-                                        margin-top: 85px;
-                                    }
-                                    .carousel-caption {
-                                        padding-bottom: 260px;
-                                    }
-                                }
-                                
-                                @media(min-width: 767px) {
-                                    P {
-                                        font-size: 40px;
-                                        margin-top: 240px;
-                                    }
-                                    .navbar-toggler-icon {
-                                        width: 3.5em;
-                                        height: 3.5em;
-                                    }
-                                    #botaoresponsive {
-                                        padding-inline-start: 150px;
-                                        padding-top: 123px;
-                                    }
-                                    #imgsecao2 {
-                                        width: 450px;
-                                        height: 350px;
-                                        margin-top: 80px;
-                                    }
-                                    #psecao2 {
-                                        font-size: 25px;
-                                        font-weight: lighter;
-                                    }
-                                    .section2 {
-                                        height: 500px;
-                                    }
-                                }
-                                /* responsividade do ipad que nao ta*/
-                                
-                                @media(min-width: 769px) and(min-height:1025px) {
-                                    .carousel-caption {
-                                        padding-bottom: 400px;
-                                    }
-                                    .carousel-control-next {
-                                        right: 30px;
-                                    }
-                                    .control {
-                                        margin-bottom: 400px;
-                                    }
-                                }
-                                
-                                @media(min-width: 1100px) {
-                                    P {
-                                        font-size: 50px;
-                                        margin-top: 9%;
-                                    }
-                                    #botaoresponsive {
-                                        padding-inline-start: 100px;
-                                    }
-                                    #imgsecao2 {
-                                        float: right;
-                                        padding-top: 2%;
-                                        width: 750px;
-                                        height: 550px;
-                                        margin-top: 150px;
-                                    }
-                                    .section2 {
-                                        background-color: #6695B6;
-                                        width: 100vw;
-                                        height: 720px;
-                                        padding: 0%;
-                                    }
-                                    #psecao2 {
-                                        font-size: 35px;
-                                        word-break: keep-all;
-                                        color: black;
-                                        padding-left: 10%;
-                                        margin-top: 10%;
-                                        font-weight: lighter;
-                                    }
-                                }
+@media (max-width:375px) and (max-height:569px) {
+    #imgfooter {
+        width: 143px !important;
+        top: 226%!important;
+        width: 94px!important;
+    }
+    .icone {
+        top: 237%!important;
+        height: 70px;
+        width: 70px;
+        left: 28%;
+    }
+    #iconeposition2 {
+        top: 208%!important;
+        height: 70px;
+        width: 70px;
+        left: 35%!important;
+    }
+    #iconeposition3 {
+        top: 208%!important;
+        height: 70px;
+        width: 70px;
+        left: 48%!important;
+    }
+    .carousel-indicators {
+        margin-bottom: 17.3rem !important;
+    }
+    .carousel-caption {
+        padding-bottom: 264px!important;
+    }
+    .text-left {
+        padding-top: 1px!important;
+    }
+}
+
+@media (min-width:370px) and (max-height: 668px) {
+    .carousel-indicators {
+        margin-bottom: 19.4rem !important;
+    }
+    #botaoresponsive {
+        padding-inline-start: 82px;
+    }
+    .nome {
+        font-size: 20px !important;
+        margin-top: 85px !important;
+    }
+    .carousel-caption {
+        padding-bottom: 301px !important;
+    }
+    .icone {
+        top: 230%!important;
+        left: 31%!important;
+        width: 70px!important;
+        height: 70px!important;
+    }
+    #iconeposition2 {
+        top: 230%!important;
+        left: 160px!important;
+    }
+    #iconeposition3 {
+        top: 230%!important;
+        left: 207px!important;
+    }
+    #imgfooter {
+        width: 113px!important;
+        top: 210%!important;
+        left: 69%!important;
+    }
+    #endereço {
+        padding-top: 60px!important;
+    }
+}
+
+@media (max-width:376px) and (min-height: 810px) {
+    #botaoresponsive {
+        padding-inline-start: 82px;
+    }
+    .carousel-caption {
+        padding-bottom: 442px !important;
+    }
+    .carousel-indicators {
+        margin-bottom: 28.3rem!important;
+    }
+    #imgfooter {
+        width: 108px!important;
+        top: 192%!important;
+        left: 266px!important;
+    }
+    .icone {
+        top: 202%!important;
+        left: 29%!important;
+    }
+    #iconeposition2 {
+        top: 202%!important;
+        left: 45%;
+    }
+    #iconeposition3 {
+        top: 202%!important;
+    }
+}
+
+@media ( min-width:400px)and (max-height:737px) {
+    #botaoresponsive {
+        padding-inline-start: 82px;
+    }
+    #imgfooter {
+        width: 143px!important;
+        top: 196%!important;
+        left: 270px!important;
+    }
+    .icone {
+        top: 220%!important;
+        left: 33%!important;
+    }
+    #iconeposition2 {
+        top: 220%!important;
+        left: 47%!important;
+    }
+    #iconeposition3 {
+        top: 220%!important;
+    }
+    .carousel-indicators {
+        margin-bottom: 24.3rem !important;
+    }
+    .carousel-caption {
+        padding-bottom: 388px !important;
+    }
+    #endereço {
+        padding-top: 59px;
+    }
+}
+
+@media (max-width: 541px) {
+    p {
+        font-size: 22px;
+        padding-bottom: 10px;
+        padding-top: 50px;
+    }
+    a.nav-link {
+        font-size: 20px;
+    }
+    h1 {
+        width: max-content;
+        font-size: 22px;
+    }
+    #psecao2 {
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    #imgsecao2 {
+        float: right;
+        padding-top: 5%;
+        width: 250px;
+        height: 150px;
+        margin-top: 60px;
+        padding-left: 85px;
+    }
+    .section2 {
+        height: 290px;
+    }
+    .control {
+        margin-bottom: 350px;
+    }
+    .carousel-caption {
+        padding-bottom: 342px;
+    }
+    .carousel-indicators {
+        margin-bottom: 21.4rem;
+    }
+    .nome {
+        font-size: 20px;
+    }
+    .infonossotime {
+        font-size: 13px;
+    }
+    .carouselinfo {
+        height: 65px;
+    }
+}
+/*responsividade ipad*/
+
+@media(max-width:769px) and (min-height:1023px) {
+    h1 {
+        font-size: 44px!important;
+    }
+    p {
+        font-size: 47px;
+        margin-top: 196px;
+    }
+    .control {
+        margin-bottom: 300px;
+    }
+    #imgfooter {
+        width: 218px;
+        top: 238%;
+        position: absolute;
+        left: 62%;
+    }
+    #imgsecao2 {
+        width: 550px;
+        height: 350px;
+        margin-top: 98px;
+    }
+    #psecao2 {
+        font-size: 28px;
+    }
+    .carousel-caption {
+        padding-bottom: 380px;
+    }
+    .carousel-indicators {
+        margin-bottom: 23rem;
+    }
+    #botaoresponsive {
+        padding-inline-start: 240px;
+    }
+    .icone {
+        top: 267%;
+        left: 42%;
+    }
+    #iconeposition2 {
+        top: 267%;
+        left: 51%;
+    }
+    #iconeposition3 {
+        top: 267%;
+    }
+}
+/*responsividade ipadpro nao funciona*/
+
+@media (max-width:1026px)and(min-height:1364px) {
+    #imgsection2 {
+        width: 550px;
+        height: 350px;
+    }
+}
+
+@media(min-width: 1100px) {
+    P {
+        font-size: 50px;
+        margin-top: 9%;
+    }
+    #botaoresponsive {
+        padding-inline-start: 100px;
+    }
+    #imgsecao2 {
+        float: right;
+        padding-top: 2%;
+        width: 750px;
+        height: 550px;
+        margin-top: 150px;
+    }
+    .section2 {
+        background-color: #6695B6;
+        width: 100vw;
+        height: 720px;
+        padding: 0%;
+    }
+    #psecao2 {
+        font-size: 35px;
+        word-break: keep-all;
+        color: black;
+        padding-left: 10%;
+        margin-top: 10%;
+        font-weight: lighter;
+    }
+    #imgfooter {
+        width: 345px!important;
+        top: 354%!important;
+        position: absolute;
+        left: 70%!important;
+    }
+    .icone {
+        bottom: 3px!important;
+        top: 430%!important;
+        left: 40%!important;
+        width: 90px!important;
+        height: 90px!important;
+    }
+    #iconeposition2 {
+        top: 430%!important;
+        left: 45%!important;
+    }
+    #iconeposition3 {
+        top: 430%!important;
+        left: 50%!important;
+    }
+    .carousel-caption {
+        padding-bottom: 50px !important;
+    }
+    .carousel-indicators {
+        margin-bottom: 1.3rem !important;
+    }
+}

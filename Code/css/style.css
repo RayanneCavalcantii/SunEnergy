@@ -211,6 +211,7 @@
             color: #185D70;
             word-break: keep-all;
             text-align: left;
+            margin-top: 85px;
         }
         
         #logoresponsive {
@@ -232,9 +233,14 @@
         
         #imgfooter {
             width: 345px;
-            top: 355%;
+            top: 365%;
             position: absolute;
             left: 70%;
+            border-radius: 20px;
+        }
+        
+        #imgfooter:hover {
+            background-image: url(../Design/luz.png);
         }
         
         #divfooter {
@@ -244,7 +250,7 @@
         .icone {
             position: absolute;
             bottom: 3px;
-            top: 430%;
+            top: 440%;
             left: 50%;
             width: 90px;
             height: 90px;
@@ -266,14 +272,14 @@
         #iconeposition2 {
             position: absolute;
             bottom: 3px;
-            top: 430%;
+            top: 440%;
             left: 55%;
         }
         
         #iconeposition3 {
             position: absolute;
             bottom: 3px;
-            top: 430%;
+            top: 440%;
             left: 60%;
         }
         
