@@ -29,9 +29,57 @@
             background-image: url(../Design/header.png);
             background-size: cover;
             overflow: hidden;
-            ;
+            background-blend-mode: luminosity;
         }
+        .line{
+            border-right: 5px  solid rgba(14, 12, 12, 0.486);
+            white-space: nowrap;
+            overflow: hidden;
+            font-weight: bold;
+           
+           margin-top: 120px;
+           margin-left: 40px;
+            font-family: 'Roboto', sans-serif;
+         
+            font-size: 50px;
+            color: #185D70;
+            text-align: center;
+            padding: 0%;
         
+      
+        }
+        .typing-animation
+    { animation: borda 500ms steps(50) infinite normal,type 5s steps(50) both infinite normal;}
+    
+       @keyframes borda {
+        from
+        {border-right-color:  rgba(12, 12, 12, 0.486);}
+        to {border-right-color: transparent;}
+        }
+       @keyframes type {
+           from{ width: 0%;}
+           to{width: 100%;
+        }
+       }
+        .parallax{
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            transform: scale(1.03);
+        
+          }
+        .p1{
+            background-image: url(../Design/sol.png);
+           
+            
+        }
+            
+        
+        #tam{
+            height: 250px;
+            
+        }
         .section2 {
             background-color: #6695B6;
             width: 100vw;
@@ -43,6 +91,8 @@
             padding-left: 4%;
             font-weight: bold;
             padding-top: 2%;
+          
+        
         }
         
         .navlink {
@@ -146,9 +196,9 @@
         
         .nome {
             color: #2E2E2E;
-            font-size: 30px;
+            font-size: 60px;
             text-align: center;
-            font-weight: bold;
+            font-weight: bolder;
             margin: 0;
             padding: 0;
             font-family: 'Roboto', sans-serif;
@@ -156,9 +206,9 @@
         
         .infonossotime {
             color: #2E2E2E;
-            font-size: 30px;
+            font-size: 20px;
             text-align: center;
-            font-weight: lighter;
+            font-weight: bold;
             margin: 0;
             padding: 0;
             font-family: 'Roboto', sans-serif;
@@ -203,16 +253,7 @@
             padding-inline-start: 50px;
             padding-top: 3px;
         }
-        
-        p {
-            font-family: 'Roboto', sans-serif;
-            padding-bottom: 180px;
-            font-size: 50px;
-            color: #185D70;
-            word-break: keep-all;
-            text-align: left;
-            margin-top: 85px;
-        }
+    
         
         #logoresponsive {
             padding-top: 20px;
