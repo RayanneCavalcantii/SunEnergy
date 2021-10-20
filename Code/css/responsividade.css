@@ -313,23 +313,23 @@
     }
     #imgfooter {
         width: 320px!important;
-        top: 400%!important;
+        top: 412%!important;
         position: absolute;
         left: 70%!important;
     }
     .icone {
         bottom: 3px!important;
-        top: 480%!important;
+        top: 490%!important;
         left: 48%!important;
         width: 90px!important;
         height: 90px!important;
     }
     #iconeposition2 {
-        top: 480%!important;
+        top: 490%!important;
         left: 53%!important;
     }
     #iconeposition3 {
-        top: 480%!important;
+        top: 490%!important;
         left: 58%!important;
     }
     .carousel-caption {

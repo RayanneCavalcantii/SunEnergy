@@ -7,19 +7,7 @@
             overflow-x: hidden;
             width: 100%;
         }
-        /*Menu fixo q ta uma bosta hehe
-        
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 200px;
-            background-color: green;
-            overflow-y: scroll;
-            
-        }
-        */
+    
         
         .section1 {
             padding-right: 0;
@@ -48,8 +36,11 @@
         
       
         }
+        .novacor{
+            background-color: #58CA74;
+        }
         .typing-animation
-    { animation: borda 500ms steps(50) infinite normal,type 5s steps(50) both infinite normal;}
+    { animation: borda 500ms steps(50) infinite normal,type 5s steps(50) backwards infinite normal;}
     
        @keyframes borda {
         from
@@ -123,11 +114,32 @@
             padding-top: 1%;
             width: 650px;
             height: 450px;
-            -webkit-transition: all 1s ease-in-out 0.3s;
-            -moz-transition: all 1s ease-in-out 0.3s;
-            -o-transition: all 1s ease-in-out 0.3s;
-            transition: all 1s ease-in-out 0.3s;
+            margin-right: -650px;
+       
+           
+            
         }
+        .anima{
+           animation-name: fly;
+           animation-duration: 5s;
+           animation-timing-function: linear;  
+           animation-iteration-count: infinite;
+           animation-fill-mode: forwards;
+           animation-direction: alternate-reverse;
+       
+           
+        }
+        @keyframes fly {
+                
+fom{
+    transform: translatex(-300vh);
+}
+            to
+            { transform: translatex(-90vh);} 
+        }
+           
+        
+        
         
         #imgsecao2:hover {
             -webkit-border-radius: 100px;
@@ -139,6 +151,7 @@
             transform: scale(1.2) rotate(-10deg);
         }
         
+
         .section3 {
             background-color: #185D70;
             width: 100%;
@@ -224,7 +237,8 @@
         .footer {
             width: 100vh;
         }
-        
+
+       
         #menu {
             font-family: 'Lexend Deca', sans-serif;
             font-weight: normal;
@@ -280,9 +294,6 @@
             border-radius: 20px;
         }
         
-        #imgfooter:hover {
-            background-image: url(../Design/luz.png);
-        }
         
         #divfooter {
             position: absolute;
