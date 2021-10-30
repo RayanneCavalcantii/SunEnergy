@@ -114,29 +114,12 @@
             padding-top: 1%;
             width: 650px;
             height: 450px;
-            margin-right: -650px;
+            
        
            
             
         }
-        .anima{
-           animation-name: fly;
-           animation-duration: 5s;
-           animation-timing-function: linear;  
-           animation-iteration-count: infinite;
-           animation-fill-mode: forwards;
-           animation-direction: alternate-reverse;
        
-           
-        }
-        @keyframes fly {
-                
-fom{
-    transform: translatex(-300vh);
-}
-            to
-            { transform: translatex(-90vh);} 
-        }
            
         
         
