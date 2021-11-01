@@ -6,11 +6,13 @@ secao2.style.height="800px"
 
 function removetext(){
     texts2.innerHTML="A energia solar deve ser utilizada pois contribui para a preservação do meio ambiente, é uma fonte de energia limpa e renovável, auxiliando na economia de energia elétrica. Além disso ela conta com uma instalação fácil, valoriza seu imóvel e possibilita a geração de créditos energéticos."
+     
 }
 
 function addimg (){
 
     const img = document.createElement("img")
+    img.setAttribute('id','btnimg')
     img.src = "js/plantas.png"
     img.style.width="400px"
     img.style.float="right"
