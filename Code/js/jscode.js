@@ -36,14 +36,10 @@ function removeImage(){
     changeColor();
     removeImage();
     removetext();
-
+    document.getElementById("bt").style.display="none";
+ 
 }
 
-function npega (){
-  
-    
-    secao2.classList.toggle("novacor")
- 
- }
+
 
 botao.addEventListener('click',changeMode)
