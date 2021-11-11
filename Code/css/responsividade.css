@@ -112,9 +112,11 @@
         margin-bottom: 28.3rem!important;
     }
     #imgfooter {
-        width: 108px!important;
+        width: 94px!important;
         top: 249%!important;
-        left: 266px!important;
+        left: 251px!important;
+    }#endereço{
+        font-size: 12px!important;
     }
     .icone {
         top: 258%!important;
@@ -136,10 +138,12 @@
     height: 160px!important;
 }#s2{
     height: 585px!important;
+}#bt{margin-left: 38px!important;
+
 }
 #btnimg{
     padding-left: 27px!important;
-    width: 200px!important;
+    width: 182px!important;
     float: right!important;
     margin-top: 140px!important;
     padding-right: 0px!important;
@@ -285,7 +289,7 @@
         font-size: 22px;
     }
        #psecao2 {
-        font-size: 19px;
+        font-size: 15px;
         font-weight: lighter;
     }
     #imgsecao2 {
@@ -487,7 +491,7 @@
         }
        @keyframes type {
            from{ width: 0%;}
-           to{width: 60%;
+           to{width: 64%;
         }      }
          #bt{
         border-radius: 14px!important;
