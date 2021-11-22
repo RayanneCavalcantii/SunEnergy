@@ -7,7 +7,74 @@
             overflow-x: hidden;
             width: 100%;
         }
-    
+        
+        .flex {
+            display: flex;
+            height: auto;
+        }
+        
+        .flex h1 {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .flex2 {
+            display: flex;
+            justify-content: end;
+            padding-right: 10%;
+        }
+        
+        .flexh1 {
+            display: flex;
+            flex-direction: column;
+            max-width: 200px;
+            word-break: break-word;
+            height: 100px;
+        }
+        
+        .flexs2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .flexmao {
+            justify-self: end;
+            margin-top: 32px;
+            max-width: 900px;
+        }
+        
+        #flextxt {
+            display: flex;
+            justify-content: flex-start;
+            color: black;
+            font-size: 2.25em;
+            width: max-content;
+            font-weight: lighter;
+            word-break: break-word;
+            padding: 30px;
+            max-width: 1000px;
+        }
+        
+        #flexbtn {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .flexcollum {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        
+        .responsiva {
+            width: 100%;
+            height: auto;
+        }
         
         .section1 {
             padding-right: 0;
@@ -19,61 +86,71 @@
             overflow: hidden;
             background-blend-mode: luminosity;
         }
-        .line{
-            border-right: 5px  solid rgba(14, 12, 12, 0.486);
+        
+        .line {
+            border-right: 5px solid rgba(14, 12, 12, 0.486);
             white-space: nowrap;
             overflow: hidden;
             font-weight: bold;
-           
-           margin-top: 120px;
-           margin-left: 40px;
+            margin-top: 120px;
+            margin-left: 40px;
             font-family: 'Roboto', sans-serif;
-         
-            font-size: 50px;
+            font-size: 4vw;
             color: #185D70;
             text-align: center;
             padding: 0%;
-        
-      
+            width: max-content;
         }
-        .novacor{
+        
+        .novacor {
             background-color: #58CA74;
         }
-        .typing-animation
-    { animation: borda 500ms steps(50) infinite normal,type 5s steps(50) backwards infinite normal;}
-    
-       @keyframes borda {
-        from
-        {border-right-color:  rgba(12, 12, 12, 0.486);}
-        to {border-right-color: transparent;}
+        
+        .typing-animation {
+            animation: borda 500ms steps(50) infinite normal, type 5s steps(50) backwards infinite normal;
         }
-       @keyframes type {
-           from{ width: 0%;}
-           to{width: 60%;
+        
+        @keyframes borda {
+            from {
+                border-right-color: rgba(12, 12, 12, 0.486);
+            }
+            to {
+                border-right-color: transparent;
+            }
         }
-       }
-        .parallax{
+        
+        @keyframes type {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 77%;
+            }
+        }
+        
+        .parallax {
             background-attachment: fixed;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
             transform: scale(1.03);
+        }
         
-          }
-        .p1{
+        .p1 {
             background-image: url(../Design/sol.png);
-           
-            
         }
-            
         
-        #tam{
-            height: 250px;
-            
+        .responsiva {
+            width: 100%;
+            height: auto;
         }
+        
+        #tam {
+            height: 250px;
+        }
+        
         .section2 {
             background-color: #6695B6;
-            width: 100vw;
             height: 800px;
             padding: 0%;
         }
@@ -82,54 +159,29 @@
             padding-left: 4%;
             font-weight: bold;
             padding-top: 2%;
-          
+        }
         
-        }#bt{
+        #bt {
             border-radius: 14px!important;
-            width: 168px!important;      
-           margin-top: 70px!important;
-           margin-left: 124px;
-          background-color:#0C4453 !important;
-    
-  }
+            width: 168px!important;
+            margin-top: -60px!important;
+            margin-left: 124px;
+            background-color: #0C4453 !important;
+        }
         
         .navlink {
             font-size: 20px;
         }
         
         h1 {
-            padding-top: 10%;
+            padding-top: 22%;
             padding-left: 10%;
-            font-size: 70px;
+            font-size: 5.5vw;
             font-weight: bold;
             font-family: 'Roboto', sans-serif;
             color: #134958;
             width: max-content;
         }
-        
-        #psecao2 {
-            font-size: 50px;
-            word-break: keep-all;
-            color: black;
-            padding-left: 10%;
-            margin-top: 10%;
-            font-weight: lighter;
-        }
-        
-        #imgsecao2 {
-            float: right;
-            padding-top: 1%;
-            width: 650px;
-            height: 450px;
-            
-       
-           
-            
-        }
-       
-           
-        
-        
         
         #imgsecao2:hover {
             -webkit-border-radius: 100px;
@@ -141,7 +193,6 @@
             transform: scale(1.2) rotate(-10deg);
         }
         
-
         .section3 {
             background-color: #185D70;
             width: 100%;
@@ -185,7 +236,7 @@
         
         .carouselinfo {
             background-color: #c3c3c375;
-            height: 100px;
+            height: 130px;
             justify-content: center;
         }
         
@@ -199,7 +250,7 @@
         
         .nome {
             color: #2E2E2E;
-            font-size: 60px;
+            font-size: 5vw;
             text-align: center;
             font-weight: bolder;
             margin: 0;
@@ -209,10 +260,10 @@
         
         .infonossotime {
             color: #2E2E2E;
-            font-size: 20px;
+            font-size: 1.9vw;
             text-align: center;
             font-weight: bold;
-            margin: 0;
+            margin: -11px;
             padding: 0;
             font-family: 'Roboto', sans-serif;
         }
@@ -227,8 +278,7 @@
         .footer {
             width: 100vh;
         }
-
-       
+        
         #menu {
             font-family: 'Lexend Deca', sans-serif;
             font-weight: normal;
@@ -257,7 +307,6 @@
             padding-inline-start: 50px;
             padding-top: 3px;
         }
-    
         
         #logoresponsive {
             padding-top: 20px;
@@ -283,7 +332,6 @@
             left: 70%;
             border-radius: 20px;
         }
-        
         
         #divfooter {
             position: absolute;
