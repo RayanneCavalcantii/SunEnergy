@@ -2,7 +2,7 @@ const botao = document.getElementById("bt")
 const secao2 = document.getElementById("s2")
 const imgMao = document.getElementById("imgsecao2")
 const texts2 = document.getElementById("psecao2")
-secao2.style.height = "800px"
+
 
 function removetext() {
     texts2.innerHTML = "A energia solar deve ser utilizada pois contribui para a preservação do meio ambiente, é uma fonte de energia limpa e renovável, auxiliando na economia de energia elétrica. Além disso ela conta com uma instalação fácil, valoriza seu imóvel e possibilita a geração de créditos energéticos."

@@ -1,3 +1,30 @@
+@media (max-width:1025px) and (max-height:1367px) {
+    #s3 {
+        height: 554px;
+    }
+    .carousel-caption {
+        padding-bottom: 500px;
+    }
+    .carousel-indicators {
+        margin-bottom: 30rem;
+    }
+    .icone {
+        top: 252%;
+        left: 31%;
+        width: 150px;
+        height: 150px;
+    }
+    #iconeposition2 {
+        top: 252%;
+        left: 43%;
+    }
+    #iconeposition3 {
+        top: 252%;
+        left: 55%;
+    }
+}
+
+
 /* responsividade ipad*/
 
 @media (max-width:769px) and (max-height:1025px) {
@@ -14,16 +41,29 @@
         margin-bottom: 23rem;
     }
     .icone {
-        top: 328%;
-        left: 42%;
+        top: 290%;
+        left: 33%
     }
     #iconeposition2 {
-        top: 328%;
-        left: 51%
+        top: 290%;
+        left: 47%
     }
     #iconeposition3 {
-        top: 328%;
+        top: 290%;
+        left: 60%;
     }
+    #imgfooter {
+        max-width: 406px;
+        margin-top: -319px;
+    }
+}
+
+#s3 {
+    height: 458px;
+}
+
+#s2 {
+    height: 600px;
 }
 
 
@@ -56,22 +96,26 @@
         margin-bottom: 28rem;
     }
     #imgfooter {
-        max-width: 254px;
-        margin-top: 86px;
+        max-width: 240px;
+        margin-top: 9px;
     }
     .icone {
-        left: 28%;
-        top: 321%
+        left: 12%;
+        top: 306%
     }
     #iconeposition2 {
-        left: 44%;
-        top: 321%
+        left: 37%;
+        top: 306%
     }
     #iconeposition3 {
-        top: 321%
+        top: 306%;
+        left: 58%;
     }
     #endereço {
         font-size: 4vw;
+    }
+    #s3 {
+        height: 370px;
     }
 }
 
@@ -117,7 +161,7 @@
     }
     #imgfooter {
         max-width: 260px;
-        padding-top: 72px;
+        padding-top: 293px;
     }
 }
 
@@ -138,16 +182,18 @@
         margin-bottom: 20rem;
     }
     #imgfooter {
-        margin-top: 7px;
+        margin-top: -326px;
     }
     .icone {
-        top: 359%;
+        top: 348%;
+        width: 100px;
+        height: 100px;
     }
     #iconeposition2 {
-        top: 359%;
+        top: 348%;
     }
     #iconeposition3 {
-        top: 359%;
+        top: 348%;
     }
     #txtbtn {
         font-size: 4.5vw;
@@ -212,18 +258,18 @@
     }
     #imgfooter {
         max-width: 227px;
-        padding-top: 136px;
+        padding-top: 365px;
     }
     .icone {
-        top: 380%;
+        top: 370%;
         left: 15%;
     }
     #iconeposition2 {
-        top: 380%;
+        top: 370%;
         left: 37%;
     }
     #iconeposition3 {
-        top: 380%;
+        top: 370%;
         left: 58%;
     }
     #endereço {
