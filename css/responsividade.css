@@ -101,7 +101,9 @@
     }
     .icone {
         left: 12%;
-        top: 306%
+        top: 306%;
+        width: 100px;
+        height: 100px;
     }
     #iconeposition2 {
         left: 37%;
