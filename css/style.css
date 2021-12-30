@@ -7,70 +7,146 @@
             overflow-x: hidden;
             width: 100%;
         }
-    
+        
+        .flex {
+            display: flex;
+            height: auto;
+        }
+        
+        .flex h1 {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .flex2 {
+            display: flex;
+            justify-content: end;
+            padding-right: 10%;
+        }
+        
+        .flexh1 {
+            display: flex;
+            flex-direction: column;
+            max-width: 200px;
+            word-break: break-word;
+            height: 100px;
+        }
+        
+        .flexs2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .flexmao {
+            justify-self: end;
+            margin-top: 32px;
+            max-width: 900px;
+        }
+        
+        #flextxt {
+            display: flex;
+            justify-content: flex-start;
+            color: black;
+            font-size: 2.25em;
+            width: max-content;
+            font-weight: lighter;
+            word-break: break-word;
+            padding: 30px;
+            max-width: 1000px;
+        }
+        
+        #flexbtn {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .flexcollum {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
         
         .section1 {
-            padding:0;
+            padding-right: 0;
+            padding-left: 0;
             height: 100vh;
             width: 100vw;
             background-image: url(../Design/header.png);
             background-size: cover;
+            overflow: hidden;
             background-blend-mode: luminosity;
-            display: flex;
-            flex-direction: column;
         }
-        .line{
-            border-right: 5px  solid rgba(14, 12, 12, 0.486);
+        
+        .line {
+            border-right: 5px solid rgba(14, 12, 12, 0.486);
             white-space: nowrap;
             overflow: hidden;
             font-weight: bold;
+            margin-top: 120px;
+            margin-left: 40px;
             font-family: 'Roboto', sans-serif;
-            font-size: 2em;
+            font-size: 4vw;
             color: #185D70;
-            text-align: left;
-            padding:0;
+            text-align: center;
+            padding: 0%;
+            width: max-content;
+        }
         
-      
+        .novacor {
+            background-color: #58CA74;
         }
-       
-     /*    .typing-animation
-    { animation: borda 500ms steps(50, end) infinite normal,type 5s steps(50) backwards infinite normal;
-        margin:0 auto;
-    padding:0;
-    overflow: hidden;}
-    
-       @keyframes borda {
-        from, to {border-right-color: transparent;}
-        50% {border-right-color:  rgba(12, 12, 12, 0.486);}
+        
+        .typing-animation {
+            animation: borda 500ms steps(50) infinite normal, type 5s steps(50) backwards infinite normal;
         }
-       @keyframes type {
-           from{ width: 0%;}
-           to{width: 100%;
+        
+        @keyframes borda {
+            from {
+                border-right-color: rgba(12, 12, 12, 0.486);
+            }
+            to {
+                border-right-color: transparent;
+            }
         }
-       } */
-       /*  .parallax{
+        
+        @keyframes type {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 77%;
+            }
+        }
+        
+        .parallax {
             background-attachment: fixed;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
             transform: scale(1.03);
-            background-image: url(../Design/sol.png);
+        }
         
-          } */
-       
-        #tam{
+        .p1 {
+            background-image: url(../Design/sol.png);
+        }
+        
+        .responsiva {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        #tam {
             height: 250px;
-            background-attachment: fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            transform: scale(1.03);
-            background-image: url(../Design/sol.png);
-            
         }
+        
         .section2 {
             background-color: #6695B6;
-            width: 100vw;
             height: 800px;
             padding: 0%;
         }
@@ -79,53 +155,29 @@
             padding-left: 4%;
             font-weight: bold;
             padding-top: 2%;
-          
-        
         }
-        #bt{
+        
+        #bt {
             border-radius: 14px;
-            width: 168px;      
-           margin-top: 70px;
-           margin-left: 124px;
-          background-color:#0C4453 ;
-    
-  }
+            width: 168px;
+            margin-top: -60px;
+            margin-left: 124px;
+            background-color: #0C4453;
+        }
+        
+        .navlink {
+            font-size: 3vw;
+        }
         
         h1 {
-            padding-top: 10%;
+            padding-top: 22%;
             padding-left: 10%;
-            font-size: 70px;
+            font-size: 5.5vw;
             font-weight: bold;
             font-family: 'Roboto', sans-serif;
             color: #134958;
             width: max-content;
         }
-        
-        #psecao2 {
-            display: flex;
-            flex-direction: column;
-            font-size: 50px;
-            word-break: keep-all;
-            color: black;
-            padding-left: 10%;
-            margin-top: 10%;
-            font-weight: lighter;
-        }
-        
-        #imgsecao2 {
-            float: right;
-            padding-top: 1%;
-            width: 650px;
-            height: 450px;
-            
-       
-           
-            
-        }
-       
-           
-        
-        
         
         #imgsecao2:hover {
             -webkit-border-radius: 100px;
@@ -137,11 +189,9 @@
             transform: scale(1.2) rotate(-10deg);
         }
         
-
         .section3 {
             background-color: #185D70;
             width: 100%;
-            height: 200px;
             padding-left: 0;
             padding-right: 0;
         }
@@ -181,7 +231,7 @@
         
         .carouselinfo {
             background-color: #c3c3c375;
-            height: 100px;
+            height: 130px;
             justify-content: center;
         }
         
@@ -195,7 +245,7 @@
         
         .nome {
             color: #2E2E2E;
-            font-size: 60px;
+            font-size: 5vw;
             text-align: center;
             font-weight: bolder;
             margin: 0;
@@ -205,10 +255,10 @@
         
         .infonossotime {
             color: #2E2E2E;
-            font-size: 20px;
+            font-size: 1.9vw;
             text-align: center;
             font-weight: bold;
-            margin: 0;
+            margin: -11px;
             padding: 0;
             font-family: 'Roboto', sans-serif;
         }
@@ -223,8 +273,7 @@
         .footer {
             width: 100vh;
         }
-
-       
+        
         #menu {
             font-family: 'Lexend Deca', sans-serif;
             font-weight: normal;
@@ -239,7 +288,7 @@
         
         .nav-link {
             color: #0C4453;
-            font-size: 44px;
+            font-size: 3vw;
             align-self: auto;
             font-family: 'Lexend Deca', sans-serif;
             font-weight: normal;
@@ -253,7 +302,6 @@
             padding-inline-start: 50px;
             padding-top: 3px;
         }
-    
         
         #logoresponsive {
             padding-top: 20px;
@@ -272,15 +320,6 @@
             fill: #BAC3C8;
         }
         
-        #imgfooter {
-            width: 345px;
-            top: 365%;
-            position: absolute;
-            left: 70%;
-            border-radius: 20px;
-        }
-        
-        
         #divfooter {
             position: absolute;
         }
@@ -288,10 +327,10 @@
         .icone {
             position: absolute;
             bottom: 3px;
-            top: 440%;
-            left: 50%;
-            width: 90px;
-            height: 90px;
+            top: 507%;
+            left: 45%;
+            width: 120px;
+            height: 120px;
             list-style: none;
             cursor: pointer;
             -webkit-transform: scale(0.7);
@@ -310,15 +349,15 @@
         #iconeposition2 {
             position: absolute;
             bottom: 3px;
-            top: 440%;
-            left: 55%;
+            top: 507%;
+            left: 52%;
         }
         
         #iconeposition3 {
             position: absolute;
             bottom: 3px;
-            top: 440%;
-            left: 60%;
+            top: 507%;
+            left: 59%;
         }
         
         address {
@@ -333,10 +372,10 @@
         }
         
         #endereço {
-            margin: 0%;
+            margin-bottom: 5%;
             padding: 0%;
             left: 30%;
-            font-size: 15px;
+            font-size: 2.4vw;
             padding-left: 0px;
             padding-top: 50px;
             color: #000000;
@@ -359,4 +398,34 @@
             -moz-transform: scale(1.2);
             -o-transform: scale(1.2);
             transform: scale(1.2);
+        }
+        
+        #contato {
+            background-color: #BAC3C8;
+            width: 100%;
+            height: 530px;
+        }
+        
+        .flexreverse {
+            flex-direction: row-reverse;
+            display: flex;
+            max-height: 400px;
+            justify-content: space-between;
+        }
+        
+        #imgfooter {
+            max-width: 437px;
+            margin-top: -382px;
+        }
+        
+        #ico {
+            max-width: 200px;
+        }
+        
+        #txtbtn {
+            font-size: 2.5vw;
+        }
+        
+        #ex {
+            background-color: #185D70;
         }
